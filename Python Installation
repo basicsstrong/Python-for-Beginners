@@ -1,0 +1,68 @@
+Step-by-step guide to help you with python installation in your system. Follow these instructions, and you’ll have Python installed, a Python environment set up in no time!. 
+
+1. Installing Python
+
+  Step 1: Download Python
+  Open your web browser and go to the official Python website.
+  You’ll see a “Download Python” button at the top of the page. Click it, and it will automatically detect the latest version compatible with your operating system.
+  Save the downloaded installer file on your computer.
+
+  Step 2: Install Python
+  Find the installer file you just downloaded and double-click it to open the installation wizard.
+  Important: Before you proceed, check the box that says “Add Python to PATH”. This step is crucial! It lets you use Python from any command line window.
+  Click Install Now and let the wizard run. Once it’s done, Python should be installed on your system!
+
+  Step 3: Verify Your Installation
+  Open your command line:
+  On Windows: Open Command Prompt.
+  On macOS/Linux: Open Terminal.
+  Type the following command and press Enter:
+
+  python --version
+  
+  If Python installed correctly, you should see the version number (e.g., Python 3.10.5).
+  Congrats! If you see the version number, Python is ready to go!
+  If you are unable to see the version, it might be because the path is not set.
+
+
+
+2. Setting Up a Python Environment
+
+  Using a virtual environment keeps your projects isolated and organized, which is incredibly useful when working on multiple Python projects.
+
+  Step 1: Navigate to Your Project Folder
+  Choose a folder where you want to create your Python project. For example, if you want to create it in your “Documents” folder:
+
+    On Windows: Open Command Prompt and type:
+    cd C:\Users\YourUsername\Documents
+
+    On macOS: Open Terminal and type:
+    cd /Users/YourUsername/Documents
+
+    On Linux: Open Terminal and type:
+    cd /home/YourUsername/Documents
+
+    You’re now in the right folder to create a virtual environment.
+  
+  Step 2: Create a Virtual Environment
+    Type the following command to create a virtual environment (you can name it anything, but “myenv” is common):
+    python3 -m venv myenv
+  
+    A folder named myenv should appear in your project folder, which contains your isolated environment. Use `python` instead of `python3` in above command.
+    
+  
+  Step 3: Activate the Environment
+    Activating your environment depends on your operating system:
+    On Windows: Run this command:
+    myenv\Scripts\activate
+    
+    On macOS/Linux: Run this command:
+    source myenv/bin/activate
+    
+    Once activated, you’ll notice (myenv) appears at the start of your command line, meaning you’re now working within this environment.
+    While the environment is active, any libraries or tools you install will be contained in this environment and won’t affect other projects.
+  
+  To deactivate it when done, simply type [This step is to be executed only when we are not using the environment. If environment is deactivated, to reactivate use the above activate command]:
+  deactivate
+
+
