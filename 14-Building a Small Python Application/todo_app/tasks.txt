@@ -1,0 +1,5 @@
+Buy groceries
+Complete Python project
+Call the doctor
+Read a book
+Write to-do list app documentation
